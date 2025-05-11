@@ -8,8 +8,8 @@ app.use(express.json());
 
 
 let messages = [
-  { id: 1, text: 'Hello world!', sender_name: kimmo },
-  { id: 2, text: 'Hi there!', sender_name: olavi }
+  { id: 1, text: 'Hello world!', sender_name: 'kimmo' },
+  { id: 2, text: 'Hi there!', sender_name: 'olavi' }
 ];
 
 
